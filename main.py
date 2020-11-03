@@ -1,6 +1,5 @@
-spam = 2
-eggs = 3
-del spam
-eggs = 4
-spam = 5
-print(spam*eggs)
+from random import choice
+
+lst = ["Vampires", 'Lizardman', "TombKings", "Skaven", "High Elves", "Norsca", "Dwarves", "Empire"]
+
+print("The Army that you should learn using is the: " + choice(lst))
